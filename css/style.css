@@ -1,0 +1,131 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body, html {
+	font-family: "Open Sans", arial;
+	font-weight: 400;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	color: #777;
+	background-color: #FFFFFF;
+}
+
+#sixgoals:hover {
+  background-color: rgba(42, 42,42, 0.2)
+}
+
+h1 {
+
+	font-family: "permanent marker", arial;
+	color: #cc3333;
+}
+h5 {
+	line-height: 12px;
+	font-family: "permanent marker", arial;
+}
+
+a {
+	color: #777;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+	color: #70af00;
+}
+
+#sixgoals:hover {
+  background-color: rgba(42, 42,42, 0.2)
+}
+
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+ul {
+	padding: 0;
+	webkit-padding: 0;
+	moz-padding: 0;
+	list-style: none;
+}
+/* Navigation */
+#menu {
+	padding: 5px;
+	transition: all 0.8s;
+	background-color: rgba(42, 42,42, 0.3)
+}
+#menu a.navbar-brand {
+	background-image: url(../img/logo-medium.png);
+}
+
+#menu.navbar-doug .navbar-nav > li > a {
+	color: #ffffff;
+	background-color: transparent;
+	font-size: 18px;
+ 	font-family: "permanent marker", arial;
+	letter-spacing: 1px;
+	text-align: right;
+}
+
+#menu.navbar-doug .navbar-nav > li > a:hover {
+	text-decoration: underline;
+	color: #353434;
+}
+.navbar-toggle {
+	border-radius: 3px;
+	background-color: transparent;
+	border-color: #353434;
+}
+.navbar-doug .navbar-toggle:hover, .navbar-doug .navbar-toggle:focus {
+	background-color: #353434;
+}
+
+.navbar-doug .navbar-toggle>.icon-bar {
+	background-color: #353434;
+	border-color: #353434;
+}
+
+.navbar-doug .navbar-toggle:hover>.icon-bar {
+	background-color: #353434;
+
+}
+
+/* 1-6 goals */
+#sixgoals {
+	padding-top: 20px;
+	padding-bottom: 20px;
+  border-color: #353434;
+  border-width: 2px;
+  border-style: double;
+  background: rgba(53, 52, 52, 0.1);
+}
+
+
+/* Contact Section */
+a:focus {
+	outline: none;
+	outline-offset: none;
+}
+
+
+/* Footer */
+#footer {
+	background: #000;
+
+}
